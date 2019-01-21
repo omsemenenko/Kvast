@@ -9,8 +9,15 @@ body {
 }
 
 .page-header {
-    background-color: #363636;
-    color: #c3c3c3;
+    background-image: url("../img/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page-header,
+.page-footer {
+    color: #ffffff;
 }
 
 .main-nav {
@@ -73,10 +80,32 @@ body {
 .feature-item {
     text-align: left;
     border-left: 1px solid #E7B66A;
+    padding-top: 180px;
 }
 
 .feature-item:first-child {
     border-left: none;
+}
+
+.feature-handmade {
+    background: url("../img/samovar.png");
+    background-repeat: no-repeat;
+    width: 158;
+    height: 208px;
+}
+
+.feature-our {
+    background: url("../img/matreshka.png");
+    background-repeat: no-repeat;
+    width: 158;
+    height: 208px;
+}
+
+.feature-noeconomy {
+    background: url("../img/hand.png");
+    background-repeat: no-repeat;
+    width: 158;
+    height: 208px;
 }
 
 .feature-item p {
