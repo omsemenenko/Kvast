@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Arial", sans-serif;
+    color: #404040;
+    background-color: #ffffff;
+}
+
+.page-header {
+    background-color: #363636;
+    color: #c3c3c3;
+}
+
+.main-nav {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    color: #a38b70;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #8d745a;
+}
+
+.btn:active {
+    color: rgba(141, 116, 90, 0.3);
+}
+
+.promo {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.new-item-1 p {
+    font-size: 18px;
+}
+
+.new-item-2 p {
+    font-size: 18px;
+}
+
+.features {
+    background-color: #FFCB78;
+}
+
+.features ul {
+    list-style: none;
+}
+
+.feature-item {
+    text-align: left;
+    border-left: 1px solid #E7B66A;
+}
+
+.feature-item:first-child {
+    border-left: none;
+}
+
+.feature-item p {
+    font-size: 16px;
+}
+
+.feature-title {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.section-title {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.history-title {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.history-source {
+    color: #424242;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.history dd {
+    font-size: 18px;
+}
+
+.history img {
+    border-radius: 5px;
+}
+
+.history-source a {
+    color: #854A00;
+}
+
+.history-source a:hover {
+    color:#EBD7CC;
+}
+
+.history-source a:active {
+    color:#A6865D;
+}
+
+.reviews {
+    background-color: #EDE5D8;
+}
+.review-item {
+    font-size: 18px;
+}
+
+.review-author {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #000000;
+}
+
+.price-list {
+    line-height: 30px;
+    border-collapse: collapse;
+}
+
+.price-list th {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+.price-list td {
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.price-list tr {
+    text-transform: uppercase;
+}
+
+.price-name {
+    color: #000000;
+}
+
+.feedback {
+    background-color: #FFCB78;
+}
+
+.feedback-tip {
+    font-size: 18px;
+}
+
+.feedback-form-group {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.feedback-form input[type="text"],
+.feedback-form select,
+.feedback-form textarea {
+    font: inherit;
+    color: inherit;
+    background-color: #E6B66C;
+    border: 1px solid  #E6B66C;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+    border: 1px solid #834700;  
+}
+
+.checkbox-area {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.page-footer {
+    background-color: #000000;
+    color: #c3c3c3;
+}
+
+.footer-nav {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.social-btn {
+    color: #ffffff;
+}
+
+.footer-copyright a {
+    color: #c3c3c3;
+    text-decoration: none;
+}
+
+.footer-copyright a:hover {
+    color: #1B1B1B;
+}
+
+.footer-copyright a:active {
+    color: #1B1B1B;
+}
