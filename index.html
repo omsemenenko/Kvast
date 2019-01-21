@@ -8,7 +8,8 @@
   <body>
     <!-- первый блок header -->
     <div class="page-header">
-      <div class="header-top">
+      <div class="container">
+      <div class="header-top clearfix">
         <div class="header-logo">
           <img src="img/logo.png" alt="Kvast" width="140" height="76">
         </div>
@@ -22,10 +23,13 @@
         <p>Крафтовый квас<br> всему голова!</p>
         </div>
       </div>
+      </div>
     </div>
     <!-- второй блок "Новинки" -->
     <div class="new">
+      <div class="container">
       <h2 class="section-title">Новинки</h2>
+      <div class="new-item clearfix">
       <div class="new-item-1">
           <h2 class="section-title">Вахтер</h2>
           <table>
@@ -63,11 +67,14 @@
           <a class="btn" href="#">Подробнее</a>
           <a class="btn" href="#">Купить</a>
           <b>90 Р.</b>
+      </div> 
       </div>
+    </div>
     </div>
     <!-- третий блок "Преимущества" -->
     <div class="features">
-      <ul>
+      <div class="container">
+      <ul class="clearfix">
         <li class="feature-item feature-handmade">
           <h3 class="feature-title">Варим сами</h2>
           <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
@@ -82,8 +89,10 @@
         </li>
       </ul>
     </div>
+    </div>
     <!-- четвертый блок "Немного истории" -->
     <div class="history">
+      <div class="container">
       <h2 class="section-title">Немного истории</h2>
       <dl>
         <dt>
@@ -105,9 +114,11 @@
           <p>По российскому ГОСТу для промышленного изготовления — это напиток с объёмной долей этилового спирта не более 1,2%, изготовленный в результате незавершённого спиртового и молочнокислого брожения сусла.</p>
         </dd>
       </dl>
+      </div>
     </div>
     <!-- пятый блок "Пресса о нас" -->
     <div class="reviews">
+      <div class="container">
       <h2 class="section-title">Пресса о нас</h2>
       <div class="review-list">
           <blockquote class="review-item">
@@ -115,6 +126,7 @@
             <cite class="review-author">Газета столичный Стольник</cite>
             <a class="btn" href="#" title="Читать далее">Читать далее</a>
           </blockquote>
+      </div>
       </div>
     </div>
     <!-- шестой блок "Ассортимент" -->
@@ -160,6 +172,7 @@
     </div>
     <!-- седьмой блок "Заказать" -->
     <div class="feedback">
+      <div class="container">
       <h2 class="section-title">Заказать</h2>
       <p class="feedback-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
       <form class="feedback-form" action="post" action="/kvast-mail">
@@ -197,15 +210,15 @@
         </div>
         <input type="submit" class="btn" value="Отправить заказ">
       </form>
+      </div>
     </div>
     <!-- восьмой блок Footer -->
     <div class="page-footer">
-      <div class="footer-top">
+      <div class="container">
+      <div class="footer-top clearfix">
         <div class="footer-logo">
           <img src="img/logo.png" alt="Kvast" width="140" height="76">
         </div>
-      </div>
-      <div class="footer-middle">
         <ul class="footer-nav">
           <li><a href="#">История</a></li>
           <li><a href="#">Производство</a></li>
@@ -213,12 +226,15 @@
           <li><a href="#">Где купить</a></li>
         </ul>
       </div>
-      <div class="footer-bottom">
+      <div class="footer-bottom clearfix">
         <div class="footer-social">
           <a class="social-btn" href="#">Инстаграм</a>
           <a class="social-btn" href="#">Фейсбук</a>
           <a class="social-btn" href="#">Вконтакте</a>
+        </div>
+        <div class="copy">
           <p>При перепечатке материалов ссылка на сайт обязательна!</p>
+        </div>
           <div class="footer-copyright">
             <img src="img/htmlacademy.png" alt="footer-logo" width="27" height="34">
             <b>Разработчик:</b> <a href="#">HTML Academy</a>
