@@ -13,7 +13,7 @@
         <div class="header-logo">
           <img src="img/logo.png" alt="Kvast" width="140" height="76">
         </div>
-        <ul class="main-nav">
+        <ul class="main-nav clearfix">
           <li><a href="#">История</a></li>
           <li><a href="#">Производство</a></li>
           <li><a href="#">Ассортимент</a></li>
@@ -31,7 +31,7 @@
       <h2 class="section-title">Новинки</h2>
       <div class="new-item clearfix">
       <div class="new-item-1">
-          <h2 class="section-title">Вахтер</h2>
+          <div class="new-item-1-table">
           <table>
             <tr>
               <td>Алк.</td>
@@ -42,15 +42,17 @@
               <td>35</td>
             </tr>
           </table>
-          <p>Ржаной хлеб, Вода, Солод, Соль</p>
+          <p class="item-table">Ржаной хлеб, Вода, Солод, Соль</p>
+        </div>
           <img src="img/bottle-left.jpg" alt="Вахтёр" width="319" height="459">
+          <h2 class="section-title">Вахтер</h2>
           <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-          <a class="btn" href="#">Подробнее</a>
-          <a class="btn" href="#">Купить</a>
-          <b>150 Р.</b>
+          <a class="btn btn-more" href="#">Подробнее</a>
+          <a class="btn btn-buy" href="#">Купить</a>
+          <b class="new-item-price">150 Р.</b>
       </div>
       <div class="new-item-2">
-          <h2 class="section-title">Романтик</h2>
+        <div class="new-item-2-table">
           <table>
             <tr>
               <td>Алк.</td>
@@ -61,12 +63,14 @@
               <td>27</td>
             </tr>
           </table>
-          <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
+          <p class="item-table">Ячменный хлеб, Вода, Солод, Апельсин</p>
+        </div>
           <img src="img/bottle-right.jpg" alt="Романтик" width="319" height="459">
+          <h2 class="section-title">Романтик</h2>
           <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
-          <a class="btn" href="#">Подробнее</a>
-          <a class="btn" href="#">Купить</a>
-          <b>90 Р.</b>
+          <a class="btn btn-more" href="#">Подробнее</a>
+          <a class="btn btn-buy" href="#">Купить</a>
+          <b class="new-item-price">90 Р.</b>
       </div> 
       </div>
     </div>
@@ -123,8 +127,10 @@
       <div class="review-list">
           <blockquote class="review-item">
             <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
+            <div class="reviews-author-block"></div>
             <cite class="review-author">Газета столичный Стольник</cite>
-            <a class="btn" href="#" title="Читать далее">Читать далее</a>
+          </div>
+            <a class="btn btn-read-more" href="#" title="Читать далее">Читать далее</a>
           </blockquote>
       </div>
       </div>
@@ -146,28 +152,28 @@
         <td>&lt; 1,2%</td>
         <td>33</td>
         <td>330 мл</td>
-        <td>120 Р.</td>
+        <td>120 грн.</td>
       </tr>
       <tr>
         <td class="price-name">Шабаш</td>
         <td>&gt; 1,2%</td>
         <td>45</td>
         <td>330 мл</td>
-        <td>250 Р.</td>
+        <td>250 грн.</td>
       </tr>
       <tr>
         <td class="price-name">Вахтёр <sup>Новинка</sup></td>
         <td>&lt; 1%</td>
         <td>35</td>
         <td>0,5 л</td>
-        <td>150 Р.</td>
+        <td>150 грн.</td>
       </tr>
       <tr>
         <td class="price-name">Романтик <sup>Новинка</sup></td>
         <td>&lt; 0,5%</td>
         <td>27</td>
         <td>0,5 л</td>
-        <td>90 Р.</td>
+        <td>90 грн.</td>
       </tr>
     </table>
     </div>
@@ -177,11 +183,12 @@
       <div class="container">
       <h2 class="section-title">Заказать</h2>
       <p class="feedback-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-      <form class="feedback-form" action="post" action="/kvast-mail">
+      <form class="feedback-form clearfix" action="post" action="/kvast-mail">
         <div class="feedback-form-group">
           <label for="fllname">Представьтесь:</label>
           <input type="text" name="fullname" id="fullname" placeholder="КАК МЫ МОЖЕМ К ВАМ ОБРАЩАТЬСЯ?">
         </div>
+        
         <div class="feedback-form-group">
           <label for="phone">Номер телефона:</label>
           <input type="text" name="phone" id="phone" placeholder="+380(XX)XXX-XX-XX">
@@ -190,9 +197,10 @@
           <label for="add-phone">Доп. номер:</label>
           <input type="text" name="add-phone" id="add-phone" placeholder="+380(XX)XXX-XX-XX">
         </div>
+    
         <div class="feedback-form-group">
           <label for="email">Email:</label>
-          <input type="text" name="email" id="email" placeholder="ВАША ЭЛЕКСТРОННАЯ ПОЧТА">
+          <input type="text" name="email" id="email" placeholder="ВАША ЭЛЕКТРОННАЯ ПОЧТА">
         </div>
         <div class="feedback-form-group">
           <label for="order">Объем заказа:</label>
@@ -202,7 +210,7 @@
         </div>
         <div class="feedback-form-group">
           <label for="message">Доп. комментарий:</label>
-          <textarea name="message" id="message" cols="70" rows="10" placeholder="СООБЩИТЕ НАМ ВСЕБ ЧТО СЧИТАЕТЕ НУЖНЫМ"></textarea>
+          <textarea name="message" id="message" cols="70" rows="10" placeholder="СООБЩИТЕ НАМ О ВСЕМ, ЧТО СЧИТАЕТЕ НУЖНЫМ"></textarea>
         </div>
         <div class="checkbox-area">
           <label for="checkbox-area">
@@ -210,7 +218,9 @@
             Я согласен получать квасную рассылку
           </label>
         </div>
-        <input type="submit" class="btn" value="Отправить заказ">
+        <div class="order-button">
+        <input type="submit" class="btn btn-order" value="Отправить заказ">
+        </div>
       </form>
       </div>
     </div>
@@ -230,15 +240,17 @@
       </div>
       <div class="footer-bottom clearfix">
         <div class="footer-social">
-          <a class="social-btn" href="#">Инстаграм</a>
-          <a class="social-btn" href="#">Фейсбук</a>
-          <a class="social-btn" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-in" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
         </div>
         <div class="copy">
           <p>При перепечатке материалов ссылка на сайт обязательна!</p>
         </div>
           <div class="footer-copyright">
+            <div class="footer-image">
             <img src="img/htmlacademy.png" alt="footer-logo" width="27" height="34">
+            </div>
             <b>Разработчик:</b> <a href="#">HTML Academy</a>
           </div>
         </div>
